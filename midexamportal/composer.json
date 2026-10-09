@@ -1,0 +1,13 @@
+{
+    "name": "college/exam-automation",
+    "description": "College Question Paper Generation & Examination Management System",
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "tecnickcom/tcpdf": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "includes/"
+        }
+    }
+}
